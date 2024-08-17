@@ -75,9 +75,9 @@ const Navbar = async () => {
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <AlertDialogFooter>
-                      <AlertDialogCancel>Cancel</AlertDialogCancel>
+                      <AlertDialogCancel className="leading-none">Cancel</AlertDialogCancel>
                       <AlertDialogAction>
-                        <Link href="/api/auth/logout">Continue</Link>
+                        <Link href="/api/auth/logout" className="leading-none">Continue</Link>
                       </AlertDialogAction>
                     </AlertDialogFooter>
                   </AlertDialogContent>
